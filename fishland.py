@@ -1,0 +1,6 @@
+skumria_price = float(input())
+caca_price = float(input())
+palamud_mass = float(input())
+safrid_mass = float(input())
+midi_mass = int(input())
+print(f"{(midi_mass * 7.50 + safrid_mass * 1.8 * caca_price + palamud_mass * 1.6 * skumria_price):.2f}")
